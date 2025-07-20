@@ -1,19 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-const Button = ({ children, ...props }) => (
-  <button
-    style={{
-      background: 'purple',
-      color: 'white',
-      padding: '0.5rem 1rem',
-      border: 'none',
-      borderRadius: '4px',
-      cursor: 'pointer'
-    }}
-    {...props}
-  >
+export const Button = ({ children, ...props }) => (
+  <button {...props} style={{
+    backgroundColor: '#7e22ce',
+    color: 'white',
+    padding: '0.5rem 1rem',
+    border: 'none',
+    borderRadius: '6px',
+    cursor: 'pointer'
+  }}>
     {children}
   </button>
-);
-
-export default Button;
+)
