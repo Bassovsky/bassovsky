@@ -1,0 +1,108 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #36163d, #0e0014);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: transparent;
+  color: white;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #b18bfa;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #c1aaff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.socials button {
+  margin-left: 10px;
+  background: #4c1d95;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: left;
+  padding: 60px 40px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.hero h2 {
+  font-weight: 400;
+  color: #ddd;
+}
+
+.hero p {
+  max-width: 500px;
+  color: #ccc;
+}
+
+.browse-btn {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.stats div {
+  text-align: left;
+}
+
+.stats strong {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.feature {
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+}
+
+.feature .icon {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  margin: 0;
+  color: white;
+}
